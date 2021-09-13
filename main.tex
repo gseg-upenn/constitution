@@ -1,19 +1,32 @@
-\documentclass[12pt,openany]{book}      % paper size is in preamble.sty
+\documentclass[oneside]{book}
+\usepackage{enumitem}
 
-%\usepackage[utf8x]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
 
-%%%%%%%%%% BOOK INFORMATION %%%%%%%%%%
 \newcommand{\booktitle}{The Constitution of the Graduate Students' Engineering Government}
 
 \usepackage{formatting/options}
 
 \begin{document}
+
 \frontmatter
+
 \input{content/titlepage}
 \input{content/tocpage}
 
 \mainmatter
-\pagestyle{fancy}
+
+\input{content/name}
+\input{content/purpose}
+\input{content/assembly}
+\input{content/gapsa-reps}
+\input{content/exec-board}
+\input{content/elections}
+\input{content/nomination}
+\input{content/budget}
+\input{content/non-discrimination}
+\input{content/amendments}
+
+
 
 \end{document}
